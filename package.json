@@ -1,0 +1,30 @@
+{
+  "name": "hamn_auth",
+  "version": "1.0.0",
+  "description": "An auth system made with Hyper-Express, Alpine.js, Mongo, and Node.js. This is a test to see if I can rewrite a basic CRUD app replacing Express and Angular with Hyper-Express and Alpine.js. Also uses Bulma.io for css and Pinecone.js for Alpine routing. I may also make a phone version of the front end with capacitor.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alpine",
+    "hyper-express",
+    "node",
+    "bulma",
+    "pinecone",
+    "auth",
+    "mongo"
+  ],
+  "author": "Taylor Wright",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "hyper-express": "^6.16.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "uuid": "^9.0.1"
+  }
+}
